@@ -8,8 +8,8 @@ import HelloWorld from '@/components/HelloWorld.vue'
     <div class="wrapper">
       <HelloWorld msg="Efficient Kitchen 2.0" />
       <nav>
-          <RouterLink to="/">Login</RouterLink>
-        <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/login">Login</RouterLink>
+          <RouterLink to="/home">Home</RouterLink>
 <!--        <RouterLink to="/about">About</RouterLink>-->
       </nav>
     </div>

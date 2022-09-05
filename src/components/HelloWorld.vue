@@ -6,7 +6,9 @@ defineProps<{
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">
+      <router-link to="/">{{ msg }}</router-link>
+    </h1>
   </div>
 </template>
 
@@ -15,6 +17,11 @@ h1 {
   font-weight: 500;
   font-size: 2.6rem;
   top: -10px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #2c3e50;
 }
 
 /*h3 {*/
